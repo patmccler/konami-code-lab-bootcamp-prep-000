@@ -4,7 +4,7 @@ function init() {
 
   var body = document.querySelector('body')
 
-  body.addEventListener('keydown', onKeyDownHandler(e) )
+  body.addEventListener('keydown', onKeyDownHandler(event) )
 
 
 }
